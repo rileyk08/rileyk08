@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>The Best Sport Survey</title>
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+  <h1 id="title">The Best Sport Survey</h1>
+  <p id="description">This form will be used to determine the best sport overall</p>
+<form id="survey-form">
+<div>  <label id="name-label">Name: <input id="name" type="text" required placeholder="Enter your name"/></label> </div>
+<div> <label id="email-label">Email: <input id="email" required type="email" placeholder="Enter your email"/></label></div>
+<div><label id="number-label">Age: <input id="number" placeholder="Enter your age" type="number" min="10" max="110"/></label></div>
+<div>
+  <label>What sport do you play? <select id="dropdown">
+    <option>select one</option>
+    <option>Basketball</option>
+    <option>Baseball</option>
+    <option>Softball</option>
+    <option>Swimming</option>
+    <option>Track/Field</option>
+    <option>Gymnastics</option>
+    <option>Volleyball</option>
+    <option>Tennis</option>
+    <option>Lacrosse</option>
+  </select></label>
+</div>
+<div><label>How many times a week do you play this sport?</label></div> <div><input type="radio" id="once-or-twice" name="options" value="1"/><label>Once or twice a week</label></div>
+<div><input type="radio" id="three-to-four" name="options" value="2"/><label>Three or four times a week</label></div>
+<div><input type="radio" id="more-than-four" name="options" value="3"/><label>More than four times a week</label></div>
+<div><label>What are your favorite aspect(s) of your sport?</label></div>
+<div><input type="checkbox" value="1"/><label>Practices</label></div>
+<div><input type="checkbox" value="2"/><label>Teammates</label></div>
+<div><input type="checkbox" value="3"/><label>Games/Meets</label></div>
+<div><input type="checkbox" value="4"/><label>Competition</label></div>
+<div><input type="checkbox" value="5"/><label>Achievement</label></div>
+<div><input type="checkbox" value="6"/><label>Learning/Development</label></div>
+<div><label>What makes your sport the best?</label></div><div><textarea id="feedback" placeholder="What makes my sport the best is..."></textarea>
+</div>
+<div><button id="submit">Submit</button></div>
+</form>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+#number {
+ width: 130px; 
+}
+#feedback {
+  width: 300px;
+  height: 75px;
+}
+
